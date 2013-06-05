@@ -193,7 +193,8 @@ bundles. For instance, running: >
 triggers search for scripts matching 'unite' and yields a split window with
 content: >
 
-    "Keymap: i - Install bundle; c - Cleanup; r - Refine list; R - Reload list
+    "Keymap: i - Install bundle; c - Cleanup; r - Refine list; R - Reload
+    list; o - Open github-page
     "Search results for: unite
     Bundle 'unite.vim'
     Bundle 'unite-yarm'
@@ -218,6 +219,7 @@ KEY | DESCRIPTION
  i  |  run :BundleInstall with name taken from line cursor is positioned on
  I  |  same as i, but runs :BundleInstall! to update bundle
  D  |  delete selected bundle( be careful not to remove local modifications)
+ o  |  open the github-page of the bundle below the cursor in a browser
  c  |  run :BundleClean
  s  |  run :BundleSearch
  R  |  fetch fresh script list from server
